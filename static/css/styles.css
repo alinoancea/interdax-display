@@ -1,0 +1,37 @@
+@font-face {
+    font-family: Baloo;
+    src: url('../font/Baloo-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    color: #ffffff;
+    overflow: hidden; /* Hide scrollbars */
+}
+
+.header {
+    background-color: #8EC641;
+    font-family: 'Baloo';
+    text-align: center;
+    font-size: 100px;
+    height: 150px;
+}
+
+.border-2 {
+    border-width: 2px !important;
+}
+
+.left-middle-side, .right-middle-side {
+    background-color: #F68124;
+}
+
+.price {
+    font-size: 24px;
+    background-color: cornflowerblue;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    height: 62.8px;
+    line-height: normal;
+}

@@ -1,0 +1,5 @@
+- disable bluetooth
+- update & upgrade
+- install package for hiding cursor: sudo apt install unclutter
+- install dependecies for disabling screen saver: sudo apt install xscreensaver
+- disable screensave: search `screen` in rpi -> disable 
