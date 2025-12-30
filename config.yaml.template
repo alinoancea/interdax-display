@@ -1,9 +1,4 @@
 http_server:
-  host: '0.0.0.0'
-  port: 18766 # 0x494E (IN)
+  host: '127.0.0.1'
+  port: 26752 # 0x6880 (DP)
   debug: False
-company:
-  name: COMPANY_NAME
-  display:
-    <CATEGORY1>: <NAME1>
-    <CATEGORY2>: <NAME2>
