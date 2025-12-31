@@ -1,0 +1,6 @@
+services:
+  display:
+    build: .
+    ports:
+      - "80:26752"
+    restart: always
