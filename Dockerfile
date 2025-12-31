@@ -13,7 +13,9 @@ COPY Pipfile Pipfile.lock ./
 RUN pipenv install --deploy --system
 
 # Copy application code
-COPY static views config.yaml server.py ./
+COPY static ./static
+COPY views ./views
+COPY config.yaml server.py ./
 
 # Expose application port
 EXPOSE 26752
