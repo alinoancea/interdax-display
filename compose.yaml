@@ -2,5 +2,5 @@ services:
   display:
     build: .
     ports:
-      - "80:26752"
+      - "127.0.0.1:80:26752"
     restart: always

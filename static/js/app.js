@@ -24,7 +24,7 @@ function get_remote_products(side, gama) {
             // save prices locally
             $.ajax({
                 type: 'POST',
-                url: 'http://127.0.0.1:26752/save_prices?gama=' + gama,
+                url: '/save_prices?gama=' + gama,
                 contentType: 'application/json',
                 data: JSON.stringify(result)
             });
@@ -48,7 +48,7 @@ function get_remote_products(side, gama) {
 function get_and_display_local_products(side, gama) {
     $.ajax({
         type: 'GET',
-        url: 'http://127.0.0.1:26752/local_prices?gama=' + gama,
+        url: '/local_prices?gama=' + gama,
         dataType: 'json',
         success: function (result, status, xhr) {
             result = result[gama];
