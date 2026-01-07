@@ -11,7 +11,7 @@ body {
 }
 
 .header {
-    background-color: #8EC641;
+    background-color: red;
     font-family: 'Baloo';
     text-align: center;
     font-size: 100px;
@@ -23,12 +23,12 @@ body {
 }
 
 .left-middle-side, .right-middle-side {
-    background-color: #F68124;
+    background-color: #383E42;
 }
 
 .price {
     font-size: 24px;
-    background-color: cornflowerblue;
+    background-color: #F68124;
     text-align: center;
     font-family: sans-serif;
     font-weight: bold;
